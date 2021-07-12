@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: Ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
