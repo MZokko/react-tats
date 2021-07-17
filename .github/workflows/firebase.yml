@@ -19,10 +19,10 @@ jobs:
       - name: Build dependencies
         run: npm run build
       - name: Archive production artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@v2
         with:
-          name: my-artifact 
-          path: ${{ github.workspace }}
+          name: build
+          path: build
 
   deploy:
     name: Deploy
@@ -32,10 +32,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@master
       - name: Download artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@v2
         with:
-          name: my-artifact
-          path: ${{ github.workspace }}
+          name: build
+          path: build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
