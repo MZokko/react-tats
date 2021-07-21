@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-  background: ${({scrollNav})=>(scrollNav?'transparent':'rgba( 59, 54, 54, 0.25 )')};
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
 box-shadow: 0 0.1rem 0.25rem 0 rgba(90, 92, 128, 0.384);
 
 backdrop-filter: blur( 4px );
