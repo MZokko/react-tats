@@ -71,14 +71,24 @@ const Navbar = ({ toggle }) => {
               >Artist</NavbarLinks>
             </NavbarItem>
             <NavbarItem>
-              <NavbarLinks to='pricing'
+              <NavbarLinks to='story'
               smooth={true}
               duration={500} 
               spy={true}
               exact='true'
               offset={-80}
               activeClass="active"
-              >Pricing</NavbarLinks>
+              >History</NavbarLinks>
+            </NavbarItem>
+            <NavbarItem>
+              <NavbarLinks to='brandClothing'
+              smooth={true}
+              duration={500} 
+              spy={true}
+              exact='true'
+              offset={-80}
+              activeClass="active"
+              >Brand Clothing</NavbarLinks>
             </NavbarItem>
           </NavbarMenu>
 
