@@ -1,6 +1,5 @@
 
-
-import {Banner} from '../components/Banner'
+import WelcomeSection from '../components/WelcomeSection'
 
 function Home() {
 
@@ -9,7 +8,7 @@ function Home() {
     return (
         <>
 
-        {/* <Banner/> */}
+        <WelcomeSection/>
           <div>HOME</div>
         </>
     )
