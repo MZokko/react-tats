@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 // Add the Firebase services that you want to use
 import 'firebase/auth';
+import 'firebase/storage';
 
 export const uiConfig = {
   signInFlow: "popup",
@@ -25,5 +26,6 @@ const firebaseConfig = firebase.initializeApp({
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 });
 
+export const storage = firebase.storage();
 export const auth = firebaseConfig.auth();
 export default firebaseConfig;
