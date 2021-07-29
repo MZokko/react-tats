@@ -12,13 +12,12 @@ function Home() {
     }
 
     return (
-        <div>
+        <>
         <Navbar toggle={toggle}/>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
- 
-<Banner/>
+        <Banner/>
           <div>HOME</div>
-        </div>
+        </>
     )
 }
 

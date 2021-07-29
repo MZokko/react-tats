@@ -24,11 +24,11 @@ const SideBar = ({ isOpen, toggle }) => {
           <SidebarLink to='artist' onClick={toggle}>
           Artist
           </SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>
-            Services
+          <SidebarLink to='history' onClick={toggle}>
+          History
           </SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>
-            Sign Up
+          <SidebarLink to='brandClothing' onClick={toggle}>
+          Brand Clothing
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
