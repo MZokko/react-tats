@@ -28,6 +28,7 @@ padding:2.5rem;
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  background-color: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -37,6 +38,7 @@ export const NavbarContainer = styled.div`
 
 export const NavbarLogo = styled(LinkR)`
   color: #fff;
+  background-color: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -49,9 +51,10 @@ export const NavbarLogo = styled(LinkR)`
 
 export const MobileIcon = styled.div`
   display: none;
-
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   @media screen and (max-width: 768px) {
     display: block;
+    background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
     position: absolute;
     top: 0;
     right: 0;
@@ -67,6 +70,7 @@ export const NavbarMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   margin-right: --22px;
   @media screen and (max-width: 768px) {
     display: none;
@@ -75,10 +79,12 @@ export const NavbarMenu = styled.ul`
 
 export const NavbarItem = styled.li`
   height: 80px;
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
 `;
 
 export const NavbarLinks = styled(LinkS)`
   color: #fff;
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -93,6 +99,7 @@ export const NavbarLinks = styled(LinkS)`
 export const NavbarBtn = styled.nav`
   display: flex;
   align-items: center;
+  background: ${({scrollNav})=>(scrollNav?'transparent':'transparent')};
   @media screen and (max-width: 768px) {
     display: none;
   }
