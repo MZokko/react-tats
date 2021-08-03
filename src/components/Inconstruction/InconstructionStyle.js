@@ -7,8 +7,11 @@ max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
-justify-content: center;
+display:flex;
+flex-direction: column;
 align-items: center;
+justify-content: center;
+background: transparent;
 `;
 
 export const InconstImageWrapper= styled.div`
@@ -28,10 +31,11 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 1.5px );
 -webkit-backdrop-filter: blur( 1.5px );
 border-radius: 10px;
-border: 1px solid red;
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: center;
+width: 70%;
 `;
 
 export const InconstTitle= styled.h4``;
