@@ -1,5 +1,5 @@
 import {InconstImage,InconstContainer, InconstImageWrapper,InconstTextWrapper,InconstTitle,InconstDesc} from './InconstructionStyle'
-import img from '../../images/under_construction.svg'
+import img from '../../Images/under_construction.svg'
 
 const Inconstruction = () => {
     return (

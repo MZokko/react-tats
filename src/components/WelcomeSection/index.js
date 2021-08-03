@@ -11,7 +11,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from './welcomeSectionStyle';
-import Video from '../../videos/inkBanner2.mp4'
+import Video from '../../Videos/inkBanner2.mp4'
 
 const WelcomeSection = () => {
   const [hover, setHover] = useState(false);
