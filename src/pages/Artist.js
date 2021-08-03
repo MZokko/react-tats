@@ -1,11 +1,10 @@
 import Inconstruction from '../components/Inconstruction';
-
-const Booking = () => {
+const Artist = () => {
   return (
     <>
-      <div>booking</div>
       <Inconstruction />
     </>
   );
 };
-export default Booking;
+
+export default Artist;

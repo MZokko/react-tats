@@ -11,7 +11,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from './welcomeSectionStyle';
-import Video from '../../Videos/inkBanner2.mp4'
+import Video from '../../videos/inkBanner2.mp4'
 
 const WelcomeSection = () => {
   const [hover, setHover] = useState(false);
@@ -27,7 +27,8 @@ const WelcomeSection = () => {
           <VideoBg autoPlay loop muted src={Video} type='/video/mp4' />
         </WelcomeBg>
         <WelcomeContent>
-          <WelcomeTitle>Zokko Digital Web Agency</WelcomeTitle>
+          <WelcomeTitle>WELCOME TO</WelcomeTitle>
+          <WelcomeTitle>CozyTat'</WelcomeTitle>
           <WelcomeP>
           Tattoo at home are now is now a reality, check our artist work and location.
           <br/>for more informations.

@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
-import Booking from './pages/booking';
+import Booking from './pages/Booking';
+import BrandClothing from './pages/BrandClothing';
+import History from './pages/History';
+import Artist from './pages/Artist';
 import './App.css';
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/booking' component={Booking} />
+        <Route path='/artist' component={Artist} />
+        <Route path='/brandClothing' component={BrandClothing} />
+        <Route path='/history' component={History} />
       </Switch>
   );
   //Auth user routes

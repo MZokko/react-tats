@@ -1,11 +1,11 @@
 import Inconstruction from '../components/Inconstruction';
 
-const Booking = () => {
+const History = () => {
   return (
     <>
-      <div>booking</div>
       <Inconstruction />
     </>
   );
 };
-export default Booking;
+
+export default History;
