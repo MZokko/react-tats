@@ -1,4 +1,4 @@
-import Inconstruction from '../components/Inconstruction';
+import Inconstruction from '../Components/Inconstruction';
 
 const BrandClothing = () => {
   return (

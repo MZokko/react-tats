@@ -1,12 +1,12 @@
 import {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/index';
-import Booking from './pages/Booking'
-import BrandClothing from './pages/BrandClothing';
-import History from './pages/History';
-import Artist from './pages/Artist';
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
+import Home from './Pages/index';
+import Booking from './Pages/Booking'
+import BrandClothing from './Pages/BrandClothing';
+import History from './Pages/History';
+import Artist from './Pages/Artist';
+import Navbar from './Components/Navbar'
+import Sidebar from './Components/Sidebar'
 import './App.css';
 
 function App() {
