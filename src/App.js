@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/index';
-import Booking from './pages/Booking';
+import Booking from './pages/Booking'
 import BrandClothing from './pages/BrandClothing';
 import History from './pages/History';
 import Artist from './pages/Artist';
